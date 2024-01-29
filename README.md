@@ -26,13 +26,24 @@ Executes the Spark ETL hourly-scheduled batch job.
 Folder Structure:
 
 project_root/ (Root directory for the project)
+
 scripts/ (Contains shell scripts for job submission)
+
 logs/ (Directory for log files)
+
 src/ (Source code directory)
+
 main/
+
 scala/ (Scala source code)
+
 Kafka_Spark_Producer.scala (Scala code for Spark Structured Streaming job)
+
 Kafka_Spark_Consumer.scala (Scala code for Spark Structured Streaming job)
+
 ETL_Batch_Process.scala (Scala code for Hourly Batch Process job)
+
 test/ (Test code directory)
+
 config/ (Configuration files for Kafka, Spark, etc.)
+
